@@ -1,5 +1,5 @@
-FROM node: 20
-workdir  /app
+FROM node:20
+WORKDIR /app
 COPY catalogue/package.json .
 COPY catalogue/*.js .
 RUN npm install 
