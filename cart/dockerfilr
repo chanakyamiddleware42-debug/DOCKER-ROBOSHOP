@@ -1,7 +1,7 @@
 FROM node:20
 WORKDIR /app
-COPY cart-3/package.json .
-COPY cart-3/*.js .
+COPY cart-v3/package.json .
+COPY cart-v3/*.js .
 RUN npm install 
 ENV REDIS_HOST="redis"\
     CATALOGUE_HOST="catalogue"\
