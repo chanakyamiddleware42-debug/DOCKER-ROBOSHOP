@@ -1,4 +1,4 @@
-FROM node:20
+FROM node:alpine3.22
 WORKDIR /app
 COPY catalogue/package.json .
 COPY catalogue/*.js .
